@@ -155,6 +155,33 @@
             <lineSpacing>1.2</lineSpacing>
             <zIndex>29</zIndex>
         </carousel>
+        <text name="playtime">
+                <pos>0.865 0.00</pos>
+                <size>0.25 0.08</size>
+                <rotation>90</rotation>
+                <origin>0 0</origin>
+                <metadata>playtime</metadata>
+                <defaultValue>Never</defaultValue>
+                <fontPath>${mainFont}</fontPath>
+                <fontSize>0.03</fontSize>
+                <horizontalAlignment>right</horizontalAlignment>
+                <color>${mainFontColor}</color>
+                <letterCase>capitalize</letterCase>
+                <zIndex>32</zIndex>
+            </text>
+            <text name="playtimetext">
+                <pos>0.865 0.445</pos>
+                <size>0.25 0.08</size>
+                <rotation>90</rotation>
+                <origin>0 0</origin>
+                <text> Played</text>
+                <fontPath>${mainFont}</fontPath>
+                <fontSize>0.03</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <color>${secondColor}</color>
+                <letterCase>capitalize</letterCase>
+                <zIndex>32</zIndex>
+            </text>
         <image name="shader2">
             <path>./assets/images/background.png</path>
             <size>1 0.5</size>
@@ -359,6 +386,7 @@
             <verticalAlignment>center</verticalAlignment>
             <color>${mainFontColor}</color>
         </clock>
+        
     </view>
 
     <variant name="solidWithVideos">
